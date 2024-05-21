@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DrawingToolsController">
+   <children>
+      <ToolBar prefHeight="40.0" prefWidth="1080.0" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+        <items>
+          <Button mnemonicParsing="false" onAction="#btnFilter" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/filter.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Separator orientation="VERTICAL" prefHeight="70.0">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/pen.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Separator orientation="VERTICAL">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/pencil.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Separator orientation="VERTICAL">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/marker.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Separator orientation="VERTICAL">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/eraser.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Separator orientation="VERTICAL">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/cut.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Separator orientation="VERTICAL">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css" text="Modifica" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Separator orientation="VERTICAL">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/Red.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/Verde.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/Blu.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Separator orientation="VERTICAL">
+               <effect>
+                  <ColorAdjust brightness="-0.73" />
+               </effect>
+            </Separator>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/square.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/Rect.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" styleClass="mainFxmlClass" stylesheets="@../Utils/mainscene.css">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Assets/triangle.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+        </items>
+         <effect>
+            <Lighting light="$null">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+      </ToolBar>
+   </children>
+</AnchorPane>
